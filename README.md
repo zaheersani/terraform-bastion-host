@@ -28,7 +28,7 @@ To use this project, ensure you have the following:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/terraform-bastion-host.git
+git clone https://github.com/zaheersani/terraform-bastion-host.git
 cd terraform-bastion-host
 ```
 
