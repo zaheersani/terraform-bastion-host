@@ -7,13 +7,13 @@ variable "aws_region" {
 variable "vpc_id" {
   description = "ID of the existing VPC"
   type        = string
-  default     = "vpc-09fed0b03bc722db7"
+# default     = "vpc-09fed0b03bc722db7"
 }
 
 variable "public_subnet_id" {
   description = "ID of the public subnet for the bastion host"
   type        = string
-  default     = "subnet-0b579887bf5efe358"
+# default     = "subnet-0b579887bf5efe358"
 }
 
 variable "ami_id" {
@@ -37,5 +37,4 @@ variable "allowed_ssh_cidr" {
 variable "ssh_public_key" {
   description = "Public key for SSH access"
   type        = string
-  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCYSOvwJi6n3wT/bTweo12Fb6nvIjOo3hKUQSpF0gkLkm8O+ex+K2BouE8lXMxLbgXZwxMs6jFojIefY1Nq42txb8hFxiaVnjzSQk7+Gy8eo6txeppD4LmqIDJch9WZ4/F5C63diDSNhXHFzxIiV1MSrSpL5pVBsf6zof7ByLciVJ71mRTuDNf61W26zvfXF7u7k6kzItwT75X9LDp1cUXMaarlluujkwWafS9nyslq8oJqLTQQ8TqlmDzJhyuexTukBTqTuq36hXbH/dGA5Rb0R43NUYKDWlwba2EbxkP8VVUpZKZBM+EZFur5aoLiXxhvESvCzsgTOC1clENZMte9"
 }
